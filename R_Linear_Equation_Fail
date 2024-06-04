@@ -1,0 +1,8 @@
+b2 <- c(10,5,5,11,9,10)
+> qr.solve(m2,b2)
+  XA   YA   AB   BU   BV 
+ 4.5  5.5 -2.5  5.5  4.5 
+> m2 <- matrix(c(1,1,0,0,0, 1,0,1,1,0, 1,0,1,0,1, 0,1,1,1,0, 0,1,1,0,1, 0,0,0,1,1), nrow=6, byrow=TRUE, dimnames=list(1:6,nms))
+> qr.solve(m2,b2)
+  XA   YA   AB   BU   BV 
+ 2.5  7.5 -2.5  5.5  4.5 
